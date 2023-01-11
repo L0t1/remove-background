@@ -110,6 +110,13 @@ return [
 
     'faker_locale' => 'en_US',
 
+    'photo_room' => [
+        'api_key' => env("PHOTO_ROOM_API_KEY")
+    ],
+    
+    
+
+
     /*
     |--------------------------------------------------------------------------
     | Encryption Key
