@@ -2,15 +2,35 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <style type="text/css">
+        @keyframes green-code {
+            0% { color: #0f0; }
+            100% { color: #fff; }
+        }
+        
+        body {
+            font-family: monospace;
+            background-color: black;
+        }
+        
+        .code {
+            animation: green-code 12s linear infinite;
+        }
+    </style>
+    
+    <body>
+        <div class="code">01101001 01010100 01101000 01100101 01110010 00100000 01101001 01010100 01101000 01100101 01110010 01110011 00100000 01100100 01100101 01110110 01100101 00100000 01111001 01101111 01110101</div>
+    </body>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Remove Background Laravel with PhotoRoom API</title>
+    <title>Remove Background Image</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        
         body {
             font-family: 'Nunito', sans-serif;
         }
